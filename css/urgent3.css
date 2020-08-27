@@ -1,0 +1,448 @@
+/********************** 导航 **********************/	
+			ul{list-style: none;}
+			a{text-decoration: none; color: #777;}
+			#nav{	position: fixed; width: 100%;}
+			#nav>div{
+				height: 80px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				background-color: rgba(255,255,255,0.9);
+				border-bottom: 2px solid #0BA1E4;
+				box-shadow: 0px 1px 5px #b1b1b1;
+			}
+			#nav_text{position:relative;display: flex;text-align: center;}
+			#nav_text>li a:hover{color: #0BA1E4;}
+		/********************** 导航 **********************/	
+		/********************** banner**********************/
+			#banner{display: flex;}
+			
+		/********************** banner**********************/	
+		/********************** 正文1 **********************/
+			/******** 1f *******/
+			.text_left{
+				height: 345px;background-color: #f8fbff;
+				padding: 50px 0;
+			}
+			.text_left>div{
+				margin: 0 auto;
+				justify-content: center;
+				align-items: center;
+				width: 80%;
+				display: flex;
+			}
+			.left_1{margin-right: 30px; padding-left:80px;}
+			.left_1>h2{
+				font-weight: lighter;
+				color: #0ba1e4;font-size: 28px;
+				margin-bottom: 10px;	
+			}
+			.line{border-bottom: 2px solid #0BA1E4; width: 70px;margin-bottom: 10px;}
+			.left_1>p:last-child{
+				width: 90%;
+				font-size: 20px;
+				font-weight: 300;
+				line-height: 1.5em;
+				color: #919191;
+			}
+			/******** 2f *******/
+			.text_right{
+				height: 345px;background-color: #fff;
+				padding: 50px 0;
+			}
+			.text_right>div{
+				margin: 0 auto;
+				justify-content: center;
+				align-items: center;
+				width: 80%;
+				display: flex;
+			}
+			.right_1{ padding-left:80px;text-align: right;}
+			.right_line{
+				display: inline-block;
+				width: 70px; 
+				border-bottom: 2px solid #0BA1E4; 
+				margin-bottom: 20px; 
+				}
+			.right_1>h2{
+				font-weight: lighter;
+				color: #0ba1e4;font-size: 28px;
+				margin-bottom: 10px;	
+			}
+			.right_1>p:last-child{
+
+				font-size: 20px;
+				font-weight: 300;
+				line-height: 1.5em;
+				color: #919191;
+				display: inline-block;
+			}
+			
+			
+		/********************** 正文1 **********************/	
+		
+		/********************** 蓝色条 **********************/
+			.blu{
+				height: 86px;
+				background-color: #0BA1E4;
+				padding: 25px 0;
+				text-align: center;font-size: 24px;color: #fff;
+				font-weight: 300;
+			}
+		/********************** 蓝色条 **********************/
+	 /********************** 正文3 **********************/
+		.text_3{position: relative;} 
+		.text_3>img{width:;}
+		.text_3_1{
+			position: absolute;
+			margin-top: 80px;
+			margin-left: 25%;
+		}
+		.text_3_1>h1{font-weight: lighter;color: #0BA1E4;margin-bottom: 10px;}
+		.text_3_1>p{font-size: 20px;color: #919191;}
+		.text_3_ol{margin-top: 30px;margin-bottom: 20px}
+		.text_3_ol>li{
+			font-size: 18px;
+			margin-bottom: 10px;font-weight: 300;
+			margin-left: 60px;
+		}
+		.bnt_1,.bnt_2{
+			width: 120px;height: 46px;
+			font-size: 20px;text-align: center;padding-top: 9px;
+			border-radius: 0.3125rem;
+			display: inline-block;
+		}
+		.bnt_1{
+			background-color: #337ab7;
+			color: #fff;
+			transition: 1s;
+			}
+		.bnt_2{
+			font-weight: lighter;
+			color: #666;
+			border: 1px solid #ccc;
+			transition: 1s;
+			}	
+			.bnt_1:hover{background-color: #255a86;}
+			.bnt_2:hover{background-color: #eee;}
+		/********************** 正文3 **********************/
+		/********************** 顾客的鼓励 **********************/
+		.our_title{
+			/* background-color: #ffffff; */
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding:50px 0 50px 0;
+		}
+		.our_title1>h1{
+			font-weight: lighter;
+		}
+		.our_line{
+			width: 80px;
+			border-bottom: 2px solid #0BA1E4;
+			margin: 30px auto 26px;
+		}
+		.our_title2{
+			color: #777;font-size: 18px;
+			text-align: center;
+			font-weight: lighter;
+			margin-bottom: 30px;
+		} 	
+			.our_title{
+				/* background-color: #ffffff; */
+				margin-top: -4px;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				padding:50px 0 50px 0;
+			}
+			
+			.our_guest_img{
+				width: 50px;
+				border-radius: 50px;
+				margin-bottom: -28px;margin-left: 140px;
+				}
+			
+			.our_guest_box>p{width: 95%;
+				margin: 30px 11px 10px;
+				font-size: 14px;
+			  line-height: 20px;
+			}
+			.bot_1{
+				background-color: #AAAAAA;
+				font-size: 12px;color: #fff;
+				padding: 2px 8px;
+				margin-left: 11px;border-radius: 2px;
+			}
+			.bot_2{
+				font-size: 12px;color: #aaa;
+				margin-left: 110px;
+			}
+			#sanjiao{
+				width: 16px; height: 16px;
+				background-color: #f5f5f5; 
+				border-bottom:1px solid #34a263;
+				border-right:1px solid #34a263;
+				transform:rotate(45deg); 
+				margin-top: -8px;margin-left: 155px;
+			}
+			.our_guest_imgd{width: 70px;margin: 20px 0 30px 128px;}
+			.guest_1{display: flex; }
+		/********************** 顾客的鼓励 **********************/
+
+		/********************** 我们的顾客 **********************/
+			.img_size{width: 130px;}
+			.kh_logo{display: flex;width: 1000px;flex-wrap: wrap;}
+			.kh_logo li{
+				border: 1px solid #C1C1C1;
+				margin: 20px 15px;
+				filter: grayscale(100%);
+				
+				transition: 1s;
+			}
+			.kh_logo li:hover{
+				filter: grayscale(0%);
+				box-shadow: 0px 0px 5px #0BA1E4;
+				background-color: #fff;
+				border: 1px solid #0BA1E4;
+			}
+		/********************** 我们的顾客 **********************/
+		/********************** 更多疑问解答 **********************/
+			.more_que{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				height: 270px;
+				background-image: linear-gradient(to bottom,#0076D1 0%,#5CB7FE 100%);
+			}
+			.more_title1{
+				font-size: 36px;color: #Fff;
+				margin-bottom: 20px;
+				margin-top: 40px;
+			}
+			.more_line{border: 1px solid #fff; width: 360px;}
+			.more_title2{
+				font-size: 18px;
+				color: #fff;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+			.more_btn{
+				border-radius: 5px;
+				width: 158px;
+				height: 54px;
+				border: 1px solid #fff;
+				color: #fff;font-size: 24px;
+				text-align: center;
+				padding-top: 9px;
+				margin-top: 30px;
+				transition: 1s;
+		
+			}
+			.more_btn:hover{
+				background-color: #fff;
+				color: #0BA1E4;
+			}
+		/********************** 更多疑问解答 **********************/
+		/********************** footer **********************/
+			.footer{
+				background-color: #333;
+				height: 240px;display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.footer_ul1{
+				display: flex;
+				flex-wrap: wrap;
+				margin-top: 30px;
+			}
+			.footer_ul1 li{padding-left: 20px;}
+			.footer_ul2{border-left: 1px solid #fff; width: 130px;}
+			.footer_ul2 p{font-size: 18px;color: #fff;margin-bottom: 30px;}
+			.footer_ul2>li:not(first-child){font-size: 14px; margin-bottom:15px;}
+			.footer_ul2 a{color: #fff; }
+			.footer_er{width: 110px;}
+			#ewm{margin-bottom: 10px ;}
+			#wxh{font-size: 12px;text-align: center;}
+			.footer_icon{width: 38px;}
+			.footer_ul3{
+				margin-left: 20px;
+				border-left: 1px solid #fff;
+				height: 140px;
+			}
+		
+			.footer_ul3 li{margin-bottom: 5px; width: 300px;}
+			.num{
+				display: block;
+				font-size: 30px;color: #fff;
+				line-height: 50px;
+				font-weight: lighter;
+				margin-left: 50px;
+				margin-top: -48px;
+			}
+		/********************** footer **********************/
+		/********************** ICP **********************/
+			.icp{
+				height: 125px;
+				background-color: #666;
+				font-size: 14px;color: #fff;
+				text-align: center;
+				padding-top: 35px;
+			}
+			.icp>p{margin-bottom: 30px;}
+			.icp>img{margin-bottom: -5px;}
+		/********************** ICP **********************/
+/************************************************/
+/********************* 视口 *********************/	
+/************************************************/
+/* 超小屏xs<576*/
+	@media  (max-width:575.99px) {
+	
+	} 
+/* 小屏sm>=576*/
+	@media  (min-width:576px)  {
+	/********************** 导航 **********************/
+		#nav_img{margin-right: 3%;}
+		#nav>div{padding-left:12% ;}
+		#nav_text>li{margin: 0 15px;width: 80px;}
+		#nav_text>li:last-child{visibility: hidden;}
+	/********************** 导航 **********************/	
+	/********************** banner**********************/
+		#banner>img{width: 100%; height: 90%;}
+		
+	/********************** banner**********************/	
+
+	/********************** 客户的鼓励 **********************/
+		.our_guest_img{
+			margin-bottom: -28px;margin-left: 285px;
+			}
+		.our_guest_box{
+			width:571px;height: 160px;
+			border: 1px solid #34a263;
+			border-radius: 5px;
+			margin: 0 20px;
+		}
+		.our_guest_box>p{width: 95%;
+			margin: 40px 10px 45px 15px;
+		}
+		.bot_1{
+			margin-left: 15px;
+		}
+		.bot_2{
+			margin-left: 380px;
+			
+		}
+		#sanjiao{
+			margin-top: -8px;margin-left: 300px;
+		}
+		.our_guest_imgd{width: 70px;margin: 20px 0 30px 272px;}
+		.guest_1{flex-direction: column; }
+		/********************** 客户的鼓励 **********************/
+
+		/********************** 我们的顾客 **********************/
+		.kh_logo{width: 600px;margin-left: 60px;}
+		.img_size{width: 160px;}
+		/********************** 我们的顾客 **********************/
+		/********************** footer **********************/
+		.footer{height:600px;}
+		.footer_ul1{flex-wrap: wrap;margin-top: 10px;}
+		.footer_ul1>li{margin-bottom: 10px;}
+		.footer_ul1>li:nth-child(2){margin-left: 40%;margin-right: 10%;}
+		.footer_ul1>li:nth-child(4){margin-left: 40%;margin-right: 10%;}
+		.footer_ul3{margin-left: 0;}
+		/********************** footer **********************/	
+	}
+/* 中屏md>=768*/
+	@media  (min-width:768px) {
+	/********************** 导航 **********************/
+		#nav_img{margin-right: 3%;}
+		#nav>div{padding-left:12% ;}
+		#nav_text>li{margin: 0 15px;width: 80px;}
+		#nav_text>li:last-child{visibility: hidden;}
+	/********************** 导航 **********************/
+
+	/********************** 客户的鼓励 **********************/
+		.our_guest_img{
+			margin-bottom: -28px;margin-left: 105px;
+			}
+		.our_guest_box{
+			width: 220px;height: 160px;
+			border: 1px solid #34a263;
+			border-radius: 5px;
+			margin: 0 20px;
+		}
+		.our_guest_box>p{width: 95%;
+			margin: 30px 11px 2px;
+		}
+		.bot_1{
+			margin-left: 11px;
+		}
+		.bot_2{
+			margin-left: 40px;
+		}
+		#sanjiao{
+			margin-top: -8px;margin-left: 125px;
+		}
+		.our_guest_imgd{width: 70px;margin: 20px 0 30px 98px;}
+		.guest_1{flex-direction: row; }
+		/********************** 客户的鼓励 **********************/
+	
+		/********************** 我们的顾客 **********************/
+		.kh_logo{width: 800px;margin-left: 100px;}
+		.img_size{width: 150px;}
+		/********************** 我们的顾客 **********************/
+		/********************** footer **********************/
+		.footer{height:240px;}
+		.footer_ul1{flex-wrap: nowrap;margin-top: 30px;}
+		.footer_ul1>li{margin-bottom: 0px;}
+		.footer_ul1>li:nth-child(2){margin-left: 0;margin-right: 0;}
+		.footer_ul1>li:nth-child(4){margin-left: 0;margin-right: 0;}
+		.footer_ul3{margin-left:20;}
+		/********************** footer **********************/	
+				
+	    /********************** 蓝色条 **********************/
+			.blu{padding: 30px 0;font-size: 18px;}
+		/********************** 蓝色条 **********************/
+		
+/* 大屏lg>=992*/
+	@media (min-width:992px){
+	/********************** 导航 **********************/
+		#nav_img{margin-right: 10%;}
+		#nav>div{padding-left:0% ;}
+		#nav_text>li{margin: 0 15px;width: 80px;}
+		#nav_text>li:last-child{visibility: visible;}
+	/********************** 导航 **********************/
+	/********************** 蓝色条 **********************/
+		.blu{padding: 25px 0;font-size: 24px;}
+	/********************** 蓝色条 **********************/
+
+	/********************** 客户的鼓励 **********************/
+		.our_guest_img{
+			margin-bottom: -28px;margin-left: 140px;
+			}
+		.our_guest_box{
+			width: 292px;height: 160px;
+			border: 1px solid #34a263;
+			border-radius: 5px;
+			margin: 0 20px;
+		}
+		.our_guest_box>p{width: 95%;
+			margin: 30px 11px 10px;
+		}
+		.bot_2{
+			margin-left: 110px;
+			
+		}
+		#sanjiao{
+			margin-top: -8px;margin-left: 155px;
+		}
+		.our_guest_imgd{width: 70px;margin: 20px 0 30px 128px;}
+	/********************** 客户的鼓励 **********************/
+
+	/********************** 我们的顾客 **********************/
+	.kh_logo{width: 1000px;margin-left: 0px;}
+	.img_size{width: 130px;}
+	/********************** 我们的顾客 **********************/
+/* 超大屏xl>=1200*/
+	@media (min-width:1200px){} 	
+/********************* 视口 *********************/				

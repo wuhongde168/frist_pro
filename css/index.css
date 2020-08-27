@@ -1,0 +1,495 @@
+/********************** 导航 **********************/	
+			ul{list-style: none;}
+			a{text-decoration: none; color: #777;}
+			#nav{	position: fixed; width: 100%;}
+			#nav>div{
+				height: 80px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				background-color: rgba(255,255,255,0.9);
+				border-bottom: 2px solid #0BA1E4;
+				box-shadow: 0px 1px 5px #b1b1b1;
+			}
+			#nav_text{position:relative;display: flex;text-align: center;}
+			#nav_text>li a:hover{color: #0BA1E4;}
+		/********************** 导航 **********************/	
+		/********************** banner**********************/
+			#banner{display: flex;}
+			
+		/********************** banner**********************/	
+		/********************** 我们的成绩 **********************/	
+			.our_title{
+				/* background-color: #ffffff; */
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				padding:50px 0 50px 0;
+			}
+			.our_title1>h1{
+				font-weight: lighter;
+			}
+			.our_line{
+				width: 80px;
+				border-bottom: 2px solid #0BA1E4;
+				margin: 30px auto 26px;
+			}
+			.our_title2{
+				color: #777;font-size: 18px;
+				text-align: center;
+				font-weight: lighter;
+				margin-bottom: 30px;
+			}
+			#data{text-align: center;}
+		/********************** 我们的成绩 **********************/
+		/********************** 我们的优势 **********************/
+			#our_adv_ul{display: flex;}
+			#our_adv_ul>li{
+				justify-content: space-around;
+				width: 212.5px;height: 281px;
+				background-color: #fafafa;
+				border: 1px solid #c1c1c1;
+			}
+			#our_adv_ul img{width: 80px;display: flex; margin: 30px auto;}
+			.ul_title{margin-left: 10px;margin-right: 10px;color: #333;font-size: 14px;line-height: 1.2rem;text-align: center;}
+			.ul_title_p1{font-size:24px ;margin: 50px 0 20px 0;	font-weight: lighter;line-height: 30px;}
+			#our_adv_ul>li:hover{box-shadow: 0px 0px 10px  rgba(12,182,255,0.5);}
+			
+		/********************** 我们的优势 **********************/
+		/********************** 我们的服务 **********************/
+			#our_ser_ul{display: flex;}
+			.ser_li{
+				width: 180px;height: 450px;
+				background-color: #FAFAFA;
+				border: 1px solid #C1C1C1;
+			}
+			#our_ser_ul_ul{
+				margin-top: 30px ;
+				text-align: center;
+			}
+			#our_ser_ul_ul>li:first-child{
+				margin-bottom: 10px ;
+				text-align: center;
+				font-size: 16px;color: #0BA1E4;
+			}
+			#our_ser_ul_ul>li hr{width: 95%;margin: 0 auto;border: 0.5px solid #c1c1c1;}
+			#our_ser_ul_ul>li{
+				margin-bottom: 28px ;
+				text-align: center;
+				font-size: 14px;
+			}
+			.but{
+				background-color: #FAFAFA;
+				border: 1px solid #0BA1E4;
+				padding: 8px 23px;
+				font-size: 14px;
+				color: #0BA1E4;
+				border-radius: 5px;
+			}
+			
+			#our_ser_ul>li:hover{box-shadow: 0px 0px 10px  rgba(12,182,255,0.5);}
+			#our_ser_ul>li:hover{background-color: #0BA1E4;}	
+			#our_ser_ul_ul>li>h3:hover,#our_ser_ul_ul:hover{color: #fff;}
+		/********************** 我们的服务 **********************/
+		/********************** 顾客的鼓励 **********************/
+			.our_guest_img{
+				width: 50px;
+				border-radius: 50px;
+				margin-bottom: -28px;margin-left: 140px;
+				}
+			
+			.our_guest_box>p{width: 95%;
+				margin: 30px 11px 10px;
+				font-size: 14px;
+			  line-height: 20px;
+			}
+			.bot_1{
+				background-color: #AAAAAA;
+				font-size: 12px;color: #fff;
+				padding: 2px 8px;
+				margin-left: 11px;border-radius: 2px;
+			}
+			.bot_2{
+				font-size: 12px;color: #aaa;
+				margin-left: 110px;
+			}
+			#sanjiao{
+				width: 16px; height: 16px;
+				background-color: #f5f5f5; 
+				border-bottom:1px solid #34a263;
+				border-right:1px solid #34a263;
+				transform:rotate(45deg); 
+				margin-top: -8px;margin-left: 155px;
+			}
+			.our_guest_imgd{width: 70px;margin: 20px 0 30px 128px;}
+			.guest_1{display: flex; }
+		/********************** 顾客的鼓励 **********************/
+		/********************** 美国签证最新资讯 **********************/
+			.news_ul{width: 1000px; display: flex;margin-bottom: 50px;}
+			.news_ul>li{display: flex;margin-right: 30px;}
+			.news_img{
+				width: 140px;height: 110px;
+				background-color: #fff;
+				border: 1px solid #e8e8e8;
+				border-radius: 5px;
+				padding: 5px 5px ;
+			}
+			.news_img:hover{border: 1px solid #0BA1E4;}
+			.news_img>img{width: 130px;height: 100px}
+			.news_1{width: 305px;margin-left: 10px;}
+			.news_title{
+				font-size: 18px;color: #0BA1E4;
+				/* 文本略显示 */
+				overflow: hidden;
+				white-space: nowrap;
+				text-overflow: ellipsis;
+				margin-bottom: 3px;
+			}
+			.news_title:hover{font-weight: bold;}
+			.news_time{font-size: 12px;color: #777777;margin-bottom: 5px;}
+			.news_news{
+				height: 36px;
+				font-size: 12px;color: #777777;
+				overflow: hidden;
+				white-space: wrap;
+				text-overflow: ellipsis;
+				line-height: 18px;
+				margin-bottom: 3px;
+			}
+			.news_gut{font-size: 12px;color: #777777;}
+			.news_xq{font-size: 12px;color: #777777;margin-left: 100px;}
+			.no_flex{display: none;}
+			.news_more{text-align: center;margin-bottom: 40px;}
+			.news_more>a{font-size: 18px;color: #337ab7;}
+			/* #news{margin: 0 auto;} */
+		/********************** 美国签证最新资讯 **********************/
+		/********************** 我们的顾客 **********************/
+			.img_size{width: 130px;}
+			.kh_logo{display: flex;width: 1000px;flex-wrap: wrap;}
+			.kh_logo li{
+				border: 1px solid #C1C1C1;
+				margin: 20px 15px;
+				filter: grayscale(100%);
+				
+				transition: 1s;
+			}
+			.kh_logo li:hover{
+				filter: grayscale(0%);
+				box-shadow: 0px 0px 5px #0BA1E4;
+				background-color: #fff;
+				border: 1px solid #0BA1E4;
+			}
+		/********************** 我们的顾客 **********************/
+		/********************** 更多疑问解答 **********************/
+			.more_que{
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				height: 270px;
+				background-image: linear-gradient(to bottom,#0076D1 0%,#5CB7FE 100%);
+			}
+			.more_title1{
+				font-size: 36px;color: #Fff;
+				margin-bottom: 20px;
+				margin-top: 40px;
+			}
+			.more_line{border: 1px solid #fff; width: 360px;}
+			.more_title2{
+				font-size: 18px;
+				color: #fff;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+			.more_btn{
+				border-radius: 5px;
+				width: 158px;
+				height: 54px;
+				border: 1px solid #fff;
+				color: #fff;font-size: 24px;
+				text-align: center;
+				padding-top: 9px;
+				margin-top: 30px;
+				transition: 1s;
+		
+			}
+			.more_btn:hover{
+				background-color: #fff;
+				color: #0BA1E4;
+			}
+		/********************** 更多疑问解答 **********************/
+		/********************** footer **********************/
+			.footer{
+				background-color: #333;
+				height: 240px;display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.footer_ul1{
+				display: flex;
+				flex-wrap: wrap;
+				margin-top: 30px;
+			}
+			.footer_ul1 li{padding-left: 20px;}
+			.footer_ul2{border-left: 1px solid #fff; width: 130px;}
+			.footer_ul2 p{font-size: 18px;color: #fff;margin-bottom: 30px;}
+			.footer_ul2>li:not(first-child){font-size: 14px; margin-bottom:15px;}
+			.footer_ul2 a{color: #fff; }
+			.footer_er{width: 110px;}
+			#ewm{margin-bottom: 10px ;}
+			#wxh{font-size: 12px;text-align: center;}
+			.footer_icon{width: 38px;}
+			.footer_ul3{
+				margin-left: 20px;
+				border-left: 1px solid #fff;
+				height: 140px;
+			}
+		
+			.footer_ul3 li{margin-bottom: 5px; width: 300px;}
+			.num{
+				display: block;
+				font-size: 30px;color: #fff;
+				line-height: 50px;
+				font-weight: lighter;
+				margin-left: 50px;
+				margin-top: -48px;
+			}
+		/********************** footer **********************/
+		/********************** ICP **********************/
+			.icp{
+				height: 125px;
+				background-color: #666;
+				font-size: 14px;color: #fff;
+				text-align: center;
+				padding-top: 35px;
+			}
+			.icp>p{margin-bottom: 30px;}
+			.icp>img{margin-bottom: -5px;}
+		/********************** ICP **********************/
+/************************************************/
+/********************* 视口 *********************/	
+/************************************************/
+/* 超小屏xs<576*/
+	@media  (max-width:575.99px) {
+	
+	} 
+/* 小屏sm>=576*/
+	@media  (min-width:576px)  {
+	/********************** 导航 **********************/
+		#nav_img{margin-right: 3%;}
+		#nav>div{padding-left:12% ;}
+		#nav_text>li{margin: 0 15px;width: 80px;}
+		#nav_text>li:last-child{visibility: hidden;}
+	/********************** 导航 **********************/	
+	/********************** banner**********************/
+		#banner>img{width: 100%; height: 90%;}
+		
+	/********************** banner**********************/	
+	/********************** 我们的成绩 **********************/
+		#data>li p:first-child{font-size: 80px;color: #0BA1E4;}
+		#data>li p:last-child{font-size: 18px;color: #919191;margin: 10px 0px;}
+	/********************** 我们的成绩 **********************/
+	/********************** 我们的优势 **********************/
+		#our_adv_ul{display: flex;flex-direction: column;}
+		#our_adv_ul>li{
+			width: 644px;
+			background-color: #fafafa;
+			border: 1px solid #c1c1c1;
+			margin-bottom: 10px;
+		}
+		#our_adv_ul>li:nth-child(2),#our_adv_ul>li:nth-child(3),#our_adv_ul>li:nth-child(4) {margin-left: 0px;}
+	/********************** 我们的优势 **********************/
+	/********************** 我们的服务 **********************/
+	#our_ser_ul{flex-direction:column;}
+		.ser_li{
+			width: 644px;height: 450px;
+			background-color: #FAFAFA;
+			border: 1px solid #C1C1C1;
+			margin-top: -1px;
+			
+		}
+	/********************** 我们的服务 **********************/
+	/********************** 客户的鼓励 **********************/
+		.our_guest_img{
+			margin-bottom: -28px;margin-left: 285px;
+			}
+		.our_guest_box{
+			width:571px;height: 160px;
+			border: 1px solid #34a263;
+			border-radius: 5px;
+			margin: 0 20px;
+		}
+		.our_guest_box>p{width: 95%;
+			margin: 40px 10px 45px 15px;
+		}
+		.bot_1{
+			margin-left: 15px;
+		}
+		.bot_2{
+			margin-left: 380px;
+			
+		}
+		#sanjiao{
+			margin-top: -8px;margin-left: 300px;
+		}
+		.our_guest_imgd{width: 70px;margin: 20px 0 30px 272px;}
+		.guest_1{flex-direction: column; }
+		/********************** 客户的鼓励 **********************/
+		/********************** 最新资讯 **********************/
+		.news_ul{display:block;margin-left: 20%;}
+		.news_ul>li{margin-right: 60px;margin-bottom: 40px;}
+		.news_1{width: 400px;margin-left: 10px;}
+		.news_xq{font-size: 12px;color: #777777;margin-left:200px;}
+		/********************** 最新资讯 **********************/
+		/********************** 我们的顾客 **********************/
+		.kh_logo{width: 600px;margin-left: 60px;}
+		.img_size{width: 160px;}
+		/********************** 我们的顾客 **********************/
+		/********************** footer **********************/
+		.footer{height:600px;}
+		.footer_ul1{flex-wrap: wrap;margin-top: 10px;}
+		.footer_ul1>li{margin-bottom: 10px;}
+		.footer_ul1>li:nth-child(2){margin-left: 40%;margin-right: 10%;}
+		.footer_ul1>li:nth-child(4){margin-left: 40%;margin-right: 10%;}
+		.footer_ul3{margin-left: 0;}
+		/********************** footer **********************/	
+	}
+/* 中屏md>=768*/
+	@media  (min-width:768px) {
+	/********************** 导航 **********************/
+		#nav_img{margin-right: 3%;}
+		#nav>div{padding-left:12% ;}
+		#nav_text>li{margin: 0 15px;width: 80px;}
+		#nav_text>li:last-child{visibility: hidden;}
+	/********************** 导航 **********************/
+	/********************** 我们的成绩 **********************/
+	  #data{display:flex ;}
+		#data>li{margin: 0 30px;}
+		#data>li p:first-child{font-size: 50px;color: #0BA1E4;}
+		#data>li p:last-child{font-size: 18px;color: #919191;margin: 10px 0px;}
+	/********************** 我们的成绩 **********************/	
+	/********************** 我们的优势 **********************/
+		#our_adv_ul{display: flex;flex-direction: row;}
+		#our_adv_ul>li{
+			justify-content: space-around;
+			width: 155.5px;height: 330px;
+			background-color: #fafafa;
+			border: 1px solid #c1c1c1;
+		}
+		#our_adv_ul>li:nth-child(2),#our_adv_ul>li:nth-child(3),#our_adv_ul>li:nth-child(4) {margin-left: 40px;}
+	/********************** 我们的优势 **********************/
+	/********************** 我们的服务**********************/
+	#our_ser_ul{flex-direction:row;}
+		.ser_li{
+			width: 180px;height: 451px;
+			background-color: #FAFAFA;
+			border: 1px solid #C1C1C1;
+			margin-top:0;
+		}
+	/********************** 我们的服务**********************/
+	/********************** 客户的鼓励 **********************/
+		.our_guest_img{
+			margin-bottom: -28px;margin-left: 105px;
+			}
+		.our_guest_box{
+			width: 220px;height: 160px;
+			border: 1px solid #34a263;
+			border-radius: 5px;
+			margin: 0 20px;
+		}
+		.our_guest_box>p{width: 95%;
+			margin: 30px 11px 2px;
+		}
+		.bot_1{
+			margin-left: 11px;
+		}
+		.bot_2{
+			margin-left: 40px;
+		}
+		#sanjiao{
+			margin-top: -8px;margin-left: 125px;
+		}
+		.our_guest_imgd{width: 70px;margin: 20px 0 30px 98px;}
+		.guest_1{flex-direction: row; }
+		/********************** 客户的鼓励 **********************/
+		/********************** 最新资讯 **********************/
+		.news_ul{display: flex;margin-left: 10%;}
+		.news_ul>li{margin-right: 60px;}
+		.news_1{width: 220px;margin-left: 10px;}
+		.news_xq{font-size: 12px;color: #777777;margin-left: 20px;}
+		/********************** 最新资讯 **********************/
+		/********************** 我们的顾客 **********************/
+		.kh_logo{width: 800px;margin-left: 100px;}
+		.img_size{width: 150px;}
+		/********************** 我们的顾客 **********************/
+		/********************** footer **********************/
+		.footer{height:240px;}
+		.footer_ul1{flex-wrap: nowrap;margin-top: 30px;}
+		.footer_ul1>li{margin-bottom: 0px;}
+		.footer_ul1>li:nth-child(2){margin-left: 0;margin-right: 0;}
+		.footer_ul1>li:nth-child(4){margin-left: 0;margin-right: 0;}
+		.footer_ul3{margin-left:20;}
+		/********************** footer **********************/	
+/* 大屏lg>=992*/
+	@media (min-width:992px){
+	/********************** 导航 **********************/
+		#nav_img{margin-right: 10%;}
+		#nav>div{padding-left:0% ;}
+		#nav_text>li{margin: 0 15px;width: 80px;}
+		#nav_text>li:last-child{visibility: visible;}
+	/********************** 导航 **********************/
+	/********************** 我们的成绩 **********************/
+	  #data{display:flex;}
+		#data>li{margin: 0 30px;}
+		#data>li p:first-child{font-size: 70px;color: #0BA1E4;}
+		#data>li p:last-child{font-size: 18px;color: #919191;margin: 10px 0px;}
+	/********************** 我们的成绩 **********************/	
+	/********************** 我们的优势 **********************/
+		#our_adv_ul>li{
+			justify-content: space-around;
+			width: 212.5px;height: 281px;
+			background-color: #fafafa;
+			border: 1px solid #c1c1c1;
+		}
+	/********************** 我们的优势 **********************/
+	/********************** 我们的服务**********************/
+		.ser_li{
+			width: 240px;height: 451px;
+			background-color: #FAFAFA;
+			border: 1px solid #C1C1C1;
+		}
+	/********************** 我们的服务**********************/
+	/********************** 客户的鼓励 **********************/
+		.our_guest_img{
+			margin-bottom: -28px;margin-left: 140px;
+			}
+		.our_guest_box{
+			width: 292px;height: 160px;
+			border: 1px solid #34a263;
+			border-radius: 5px;
+			margin: 0 20px;
+		}
+		.our_guest_box>p{width: 95%;
+			margin: 30px 11px 10px;
+		}
+		.bot_2{
+			margin-left: 110px;
+			
+		}
+		#sanjiao{
+			margin-top: -8px;margin-left: 155px;
+		}
+		.our_guest_imgd{width: 70px;margin: 20px 0 30px 128px;}
+	/********************** 客户的鼓励 **********************/
+	/********************** 最新资讯 **********************/
+	.news_ul{margin-left: 0;}
+	.news_ul>li{margin-right: 30px;}
+	.news_1{width: 305px;margin-left: 10px;}
+	.news_xq{font-size: 12px;color: #777777;margin-left: 100px;}
+	/********************** 最新资讯 **********************/
+	/********************** 我们的顾客 **********************/
+	.kh_logo{width: 1000px;margin-left: 0px;}
+	.img_size{width: 130px;}
+	/********************** 我们的顾客 **********************/
+/* 超大屏xl>=1200*/
+	@media (min-width:1200px){} 	
+/********************* 视口 *********************/	
